@@ -13,8 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
+      <body className="flex flex-col min-h-screen">
+        <main className="flex-grow">
+          {children}
+        </main>
         <footer className="mt-8 p-4 text-center text-gray-600">
           Proudly developed by <a href="https://eliasbalude.vercel.app/" className="text-blue-500 hover:text-blue-700">Elias Balude</a>
         </footer>
