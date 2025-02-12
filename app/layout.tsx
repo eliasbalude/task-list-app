@@ -13,7 +13,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer className="mt-8 p-4 text-center text-gray-600">
+          Proudly developed by <a href="https://eliasbalude.vercel.app/" className="text-blue-500 hover:text-blue-700">Elias Balude</a>
+        </footer>
+      </body>
     </html>
   )
 }

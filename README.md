@@ -2,6 +2,8 @@
 
 Task Master is a simple and efficient task management application that helps you organize and prioritize your tasks. It features smooth animations for adding and removing tasks, and allows you to edit and delete tasks easily.
 
+It's developed with next.js and tailwind.css.
+
 ## Getting Started
 
 To run this project locally, follow these steps:
@@ -23,6 +25,15 @@ To run this project locally, follow these steps:
     npm run dev
     ```
 5. Open your browser and go to `http://localhost:3000` to see the application in action.
+6. To build the project:
+    ```sh
+    npm run build
+    ```
+7. Run this command to see built application:
+    ```sh
+    npm start
+    ```
+8.  Open your browser and go to `http://localhost:3000` to see built application in action.
 
 ## Features
 
