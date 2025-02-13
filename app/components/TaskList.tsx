@@ -54,7 +54,7 @@ export default function TaskList() {
     }
   };
 
-  // Save tasks to local storage whenever tasks state changes
+  // change task status
   const toggleTask = (id: number) => {
     setTasks(
       tasks.map((task) =>
